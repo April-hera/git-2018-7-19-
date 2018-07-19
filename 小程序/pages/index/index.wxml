@@ -1,0 +1,107 @@
+<view class="wrapper">
+  <view class="section classify">
+    <view class="flex-wrp fl-content">
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon1src}}"></image>
+        <view>
+          <text>{{icon1text}}</text>
+        </view>
+      </view>
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon2src}}"></image>
+        <view>
+          <text>{{icon2text}}</text>
+        </view>
+      </view>
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon3src}}"></image>
+        <view>
+          <text>{{icon3text}}</text>
+        </view>
+      </view>
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon4src}}"></image>
+        <view>
+          <text>{{icon4text}}</text>
+        </view>
+      </view>
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon5src}}"></image>
+        <view>
+          <text>{{icon5text}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="flex-wrp fl-content">
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon6src}}"></image>
+        <view>
+          <text>{{icon6text}}</text>
+        </view>
+      </view>
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon7src}}"></image>
+        <view>
+          <text>{{icon7text}}</text>
+        </view>
+      </view>
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon8src}}"></image>
+        <view>
+          <text>{{icon8text}}</text>
+        </view>
+      </view>
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon9src}}"></image>
+        <view>
+          <text>{{icon9text}}</text>
+        </view>
+      </view>
+      <view class="flex-item ">
+        <image class='ICON' src="{{icon10src}}"></image>
+        <view>
+          <text>{{icon10text}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--筛选列表  -->
+  <view class='sx-content'>
+    <view class='select'>
+      <text class='zhpx'>{{zhpx}}</text>
+      <text class='top'>{{top}}</text>
+      <text class='distance'>{{distance}}</text>
+      <text class='sx'>{{sx}}</text>
+    </view>
+    <view class='brandCon'>
+      <view class='brandList'>
+        <view class='brand-pad'>
+          <view class='floatLeft'>
+            <image class='brandImg' mode="{{item.mode}}" src="{{bricon1src}}"></image>
+          </view>
+          <view class='floatLeft brandName'>
+            <view>
+              <text class='brName'>{{brName1}}</text> </view>
+            <view class='pj floatLeft'>
+              <image class="xx" src='{{xxsrc}}'></image>
+              <image class="xx" src='{{xxsrc}}'></image>
+              <image class="xx" src='{{xxsrc}}'></image>
+              <image class="xx" src='{{xxsrc}}'></image>
+              <image class="xx" src='{{xxsrc}}'></image>
+            </view>
+            <view class='pj floatLeft'>
+              <text class='pfNump'>{{pfNum}}</text>
+              <text class='rigLine'></text>
+              <text class='ysNump'>{{ysNum}}</text> </view>
+            <text class='needTime'>{{needTime}}</text>
+          </view>
+          <!-- <view class=' floatLeft'>
+            <text class=' qsPrice'>{{qsPrice}}</text>
+            <text class='qsPrice'>{{psPrice}}</text>
+            <text class='xjDistance'>{{xjDistance}}</text>
+          </view> -->
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,126 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.flex-wrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 5;
+  flex-grow: 5;
+  flex-direction: row;
+}
+
+.fl-content .flex-item {
+  width: 20%;
+  text-align: center;
+  font-size: 13px;
+  margin: 5% 0 0 0;
+  font-family: "Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+}
+
+.ICON {
+  width: 48px;
+  height: 48px;
+}
+
+.select {
+  font-size: 15px;
+  margin: 7% 3% 3% 3%;
+}
+
+.top, .distance {
+  margin-left: 10%;
+}
+
+.sx {
+  float: right;
+}
+
+.brandCon {
+}
+
+.brandImg {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ccc;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.brand-pad {
+  padding: 0 3%;
+}
+
+.brandList {
+  min-height: 70px;
+  border-bottom: 1px solid #ccc;
+}
+
+.brName {
+  font-size: 15px;
+}
+
+.pj {
+  font-size: 12px;
+}
+
+.brandName {
+  margin-left: 3%;
+
+}
+
+.xx {
+  width: 16px;
+  height: 16px;
+  padding-top:4px;
+
+}
+
+.pfNump {
+ 
+  font-size: 12px;
+  margin-left: 5px
+  
+}
+.ysNump{
+  font-size: 12px;
+  margin-left: 5px
+
+}
+ /* .rigLine{
+  height: 15px;
+  width: 1px;
+  padding-top:4px;
+  border: 1px solid #cccccc
+}  */
+.needTime{
+ font-size: 12px;
+ color: red;
+ margin-left: 27px;
+ 
+}
+.floatRight{
+  float: right
+}
